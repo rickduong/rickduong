@@ -9,10 +9,10 @@ and building communities around technology and the outdoors.
 | 🦾 **ARM** | 💻 **Career** | 🚴 **Cycling** |
 |:---|:---|:---|
 | **Current Chapter** | **Technology Journey** | **Passion & Community** |
-| Special Advisor | Apple → Microsoft → Amazon → GitHub → ARM | Endurance Cycling |
-| Strategic Partnerships | Partnerships & Strategy | Long Distance Rides |
-| Partner Ecosystems | Leadership Lessons | Bike Projects |
-| Technology Strategy | Industry Experiences | Cycling Advocacy |
+| Special Advisor | GitHub| Endurance Cycling |
+| Strategic Partnerships | Amazon | Long Distance Rides |
+| Partner Ecosystems | Microsoft | Bike Projects |
+| Technology Strategy | Apple | Cycling Advocacy |
 | | | |
 | → [Explore ARM](./arm) | → [Explore Career](./career) | → [Explore Cycling](./rickbike) |
 

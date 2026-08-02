@@ -72,11 +72,23 @@ redmondcycling.club
 
 ---
 
+## My Stats from Strava (August 2026)
+Rides: 2,347
+Distance: 47,792 mi
+Elevation Gain: 2.7M ft
+Time: 3,040 hours
+Longest Ride: 207 mi
+Fastest 100 miles: 
+Fastest 50 miles: 
+
+---
+
+
 ## 📝 Memorable Rides
 
 2026
 - Tour of Whatcom
-- McClitchy Camano Ride
+- McClitchy Camano Classic
 - Flying Wheels
 
 2025
@@ -86,7 +98,8 @@ redmondcycling.club
 
 2024
 - RAMROD
-- Passport2pain
+- Passport 2 Pain
+- Seattle to Portland
 - Flying Wheels
 - 7 Hills of Kirkland
 

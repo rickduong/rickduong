@@ -1,4 +1,4 @@
-# 🚴 Rick's Cycling Journal
+=# 🚴 Rick's Cycling Journal
 
 Exploring roads, gravel, and the cycling community of the Pacific Northwest.
 
@@ -22,9 +22,17 @@ A journey across Washington's North Cascades:
 
 ---
 
-### 🚵 RAMROD Journey
+### 🚵 Redmond Cycling Club
 
-Documenting one of Washington's iconic cycling challenges and the community behind it.
+President of The Redmond Cycling Club.
+(RCC) are stewards of the Northwest's premier cycling event: Ride Around Mt. Rainier in One Day (RAMROD). 
+RAMROD is a single-day event that celebrates the beauty of Mount Rainier National Park and features a challenging course of 150 miles and 10,000 ft of climbing.
+
+Started in 1978, RCC is a non-profit club dedicated to creating a community for experienced cyclists who love challenging cycling. 
+The club reaches out to cyclists in Redmond, Seattle communities and the Pacific Northwest.
+
+Visit:
+redmondcycling.club
 
 📸 Gallery
 
@@ -39,23 +47,6 @@ Documenting one of Washington's iconic cycling challenges and the community behi
 ## 🎥 Latest Videos
 
 [Embedded YouTube videos]
-
----
-
-# 🤝 Community Leadership
-
-## President — Redmond Cycling Club
-
-Leading one of Washington's longest-running cycling communities.
-
-Highlights:
-- Ride leadership
-- Event organization
-- Rider safety initiatives
-- Community advocacy
-
-Visit:
-[Redmond Cycling Club website]
 
 ---
 
@@ -81,8 +72,81 @@ Visit:
 
 ---
 
-## 📝 Recent Posts
+## 📝 Memorable Rides
 
-- August 2026 — North Cascades Gravel Adventure
-- July 2026 — RAMROD Reflections
-- June 2026 — Bike Setup Update
+2026
+- Tour of Whatcom
+- McClitchy Camano Ride
+- Flying Wheels
+
+2025
+- Gran Fondo - HI90 Grindy
+- Gran Fondo - Leavenworth
+- Flying Wheels
+
+2024
+- RAMROD
+- Passport2pain
+- Flying Wheels
+- 7 Hills of Kirkland
+
+2023
+- Mount Baker Hill Climb
+- Kitsap Color Classic
+- Tour de Whatcom
+- Flying Wheels
+- Gran Fondo Ellensburg
+- Tour de Blast
+- 7 Hills of Kirkland
+
+2022
+- Redmond to Bellingham
+- Bellingham to Redmond
+- RAMROD
+- Flying Wheels
+
+2021
+- MS 100k Deceoption Pass
+- Tour de Blast
+- Cascadie Super Gravel
+- Gran Fondo Ephrata
+
+2020
+- Ride the Hurricane
+
+2019
+- Mount Baker Hill Climb
+- Seattle to Portland
+- RAMROD
+- Yakima River Canyon Ride
+- 7 Hills of Kirkland
+
+2018
+- Kitsap Color Classic 
+- High Pass Challenge
+- Seattle to Portland
+- RAMROD
+- Flying Wheels
+- 7 Hills of Kirland
+- Emerald City Ride
+- Chilly Hilly 
+
+2017
+- Seattle to Portland
+- RAMROD
+- Flying Wheels
+- Emerald City Ride
+- 7 Hills of Kirkland 
+
+2016
+- Kitsap Color Classic
+- Seattle to Portland
+- RAMROD
+- 7 Hills of Kirkland
+
+2015
+- Seattle to Portland
+- RAMROD
+
+2014 
+- Seattle to Portland

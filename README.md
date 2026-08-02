@@ -17,7 +17,7 @@ Technology executive focused on developer platforms, strategic partnerships, and
 
 ### Current Chapter
 
-I'm currently a **Special Advisor at Arm**, where I focus on strategic partnerships, developer ecosystems, and helping partners build on Arm technologies. It's the latest chapter in a career centered on connecting people, products, and platforms.
+I'm currently a **Special Advisor at Arm**, where I focus on strategic partnerships, developer ecosystems, and helping partners build on Arm technologies. 
 
 ➡️ **[Explore ARM](./arm)**
 
@@ -31,7 +31,7 @@ I'm currently a **Special Advisor at Arm**, where I focus on strategic partnersh
 
 ### Technology Journey
 
-I've worked at **Apple, IBM, Microsoft, Amazon, Unity, GitHub,** and now **Arm**. My career has focused on developer platforms, technical partnerships, and building ecosystems that help technology reach millions of developers.
+I've worked at **Apple, IBM, Microsoft, Amazon, Unity, GitHub,** and now **Arm**. My career has focused on  partnerships, and building ecosystems that help technology reach millions.
 
 ➡️ **[Explore Career](./career)**
 
@@ -45,7 +45,7 @@ I've worked at **Apple, IBM, Microsoft, Amazon, Unity, GitHub,** and now **Arm**
 
 ### President
 
-As **President of the Redmond Cycling Club**, I lead othe Pacific Northwest's premier ultra-distance cycling events: **RAMROD**, I'm passionate about bringing cyclists together and growing our community.
+As **President of the Redmond Cycling Club**, I lead the Pacific Northwest's premier ultra-distance cycling events: **RAMROD**, a 150 miles, 10k feet adventure around Mount Rainier. 
 
 ➡️ **[Explore RCC](./rcc)**
 

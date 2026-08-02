@@ -1,6 +1,6 @@
 # 🚴 Rick's Cycling Journal
 
-Exploring roads, mountains, gravel, and the cycling community of the Pacific Northwest.
+Exploring roads, gravel, and the cycling community of the Pacific Northwest.
 
 [Ride Reports] | [Photo Gallery] | [Bikes] | [Redmond Cycling Club]
 
@@ -32,7 +32,7 @@ Documenting one of Washington's iconic cycling challenges and the community behi
 
 ## 📷 Featured Photos
 
-[Photo grid]
+[Photo grid] 
 
 ---
 
@@ -61,8 +61,13 @@ Visit:
 
 ## 🚲 My Bikes
 
-### Trek Madone SLR
-Race machine built for Washington climbs.
+### Trek Madone 9 SLR
+Frameset:  700 Series OCLV Carbon KVF
+Groupset: SRAM Red eTap 11 speed rim
+Wheelset: Elite Wheels Drive 40 V
+Handlebar: Bontrager Aeolus RSL VR-C Handlebar/Stem
+Saddle: Shimano Griffon Pro
+
 
 ### Specialized Tarmac
 Lightweight performance platform.

@@ -87,82 +87,87 @@ Fastest 50 miles:
 ---
 
 
-## 📝 Memorable Rides
+# 🚴 Memorable Rides
 
-2026
-- Tour of Whatcom
-- McClitchy Camano Classic
-- Flying Wheels
+## RAMROD (Ride Around Mount Rainier in One Day) **[7]**
 
-2025
-- Gran Fondo - HI90 Grindy
-- Gran Fondo - Leavenworth
-- Flying Wheels
+2015, 2016, 2017, 2018, 2019, 2022, 2024
 
-2024
-- RAMROD
-- Passport 2 Pain
-- Seattle to Portland
-- Flying Wheels
-- 7 Hills of Kirkland
+## Seattle to Portland (STP) **[7]**
 
-2023
-- Mount Baker Hill Climb
-- Kitsap Color Classic
-- Tour de Whatcom
-- Flying Wheels
-- Gran Fondo Ellensburg
-- Tour de Blast
-- 7 Hills of Kirkland
+2014, 2015, 2016, 2017, 2018, 2019, 2024
+
+## Flying Wheels **[7]**
+
+2017, 2018, 2022, 2023, 2024, 2025, 2026
+
+## 7 Hills of Kirkland **[6]**
+
+2016, 2017, 2018, 2019, 2023, 2024
+
+## Gran Fondo Series **[4]**
+
+* Ephrata — 2021
+* Ellensburg — 2023
+* HI90 Grindy — 2025
+* Leavenworth — 2025
+
+## Kitsap Color Classic **[3]**
+
+2016, 2018, 2023
+
+## Tour de Blast **[2]**
+
+2021, 2023
+
+## Mount Baker Hill Climb **[2]**
+
+2019, 2023
+
+## Tour de Whatcom **[2]**
+
+2023, 2026
+
+## Emerald City Ride **[2]**
+
+2017, 2018
+
+## Redmond ↔ Bellingham **[1]**
 
 2022
-- Redmond to Bellingham
-- Bellingham to Redmond
-- RAMROD
-- Flying Wheels
+
+## Passport 2 Pain **[1]**
+
+2024
+
+## McClitchy Camano Classic **[1]**
+
+2026
+
+## MS 100K Deception Pass **[1]**
 
 2021
-- MS 100k Deceoption Pass
-- Tour de Blast
-- Cascadie Super Gravel
-- Gran Fondo Ephrata
+
+## Cascadia Super Gravel **[1]**
+
+2021
+
+## Ride the Hurricane **[1]**
 
 2020
-- Ride the Hurricane
+
+## Yakima River Canyon Ride **[1]**
 
 2019
-- Mount Baker Hill Climb
-- Seattle to Portland
-- RAMROD
-- Yakima River Canyon Ride
-- 7 Hills of Kirkland
+
+## High Pass Challenge **[1]**
 
 2018
-- Kitsap Color Classic 
-- High Pass Challenge
-- Seattle to Portland
-- RAMROD
-- Flying Wheels
-- 7 Hills of Kirland
-- Emerald City Ride
-- Chilly Hilly 
 
-2017
-- Seattle to Portland
-- RAMROD
-- Flying Wheels
-- Emerald City Ride
-- 7 Hills of Kirkland 
+## Chilly Hilly **[1]**
 
-2016
-- Kitsap Color Classic
-- Seattle to Portland
-- RAMROD
-- 7 Hills of Kirkland
+2018
 
-2015
-- Seattle to Portland
-- RAMROD
+---
 
-2014 
-- Seattle to Portland
+

@@ -8,9 +8,12 @@ Technology executive focused on developer platforms, strategic partnerships, and
 
 <table>
 <tr>
-<td width="33%" valign="top">
 
-## 🦾 ARM
+<td width="25%" valign="top">
+
+<h2>
+🦾 ARM<br>&nbsp;
+</h2>
 
 ### Current Chapter
 
@@ -20,29 +23,48 @@ I'm currently a **Special Advisor at Arm**, where I focus on strategic partnersh
 
 </td>
 
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
-## 💼 Career
+<h2>
+💼 Career<br>&nbsp;
+</h2>
 
 ### Technology Journey
 
-I've had the opportunity to work at **Apple, Microsoft, Amazon, GitHub,** and now **Arm**. My career has been built around developer platforms, technical partnerships, and growing communities that help technology reach millions of developers.
+I've worked at **Apple, IBM, Microsoft, Amazon, Unity, GitHub,** and now **Arm**. My career has focused on developer platforms, technical partnerships, and building ecosystems that help technology reach millions of developers.
 
-➡️ **[LinkedIn](https://www.linkedin.com/in/rickduong/)**
+➡️ **[Explore Career](./career)**
+
+</td>
+
+<td width="25%" valign="top">
+
+<h2>
+🚴 Redmond<br>Cycling Club
+</h2>
+
+### President
+
+As **President of the Redmond Cycling Club**, I lead one of the Pacific Northwest's premier cycling events: **RAMROD**, I'm passionate about bringing cyclists together and growing our community.
+
+➡️ **[Explore RCC](./rcc)**
 
 </td>
 
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
-## 🚴 Cycling
+<h2>
+🚴‍♂️ Cycling<br>&nbsp;
+</h2>
 
-### Beyond Technology
+### I Climb Things
 
-Away from the office, I'm the **President of the Redmond Cycling Club**, where I organize rides, support cycling advocacy, and share stories, photos, and videos from adventures across the Pacific Northwest and beyond.
+Cycling is where I recharge and explore. Here you'll find ride reports, photography, videos, bike projects, gear reviews, and adventures across Washington and beyond.
 
-➡️ **[Explore Strava Cycling](https://www.strava.com/athletes/9412137) • [Instagram](https://www.instagram.com/ricksbike/)**
+➡️ **[Explore Cycling](./rickbike)**
 
 </td>
+
 </tr>
 </table>
 

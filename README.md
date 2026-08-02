@@ -1,36 +1,24 @@
-# 👋 Hi, I'm Rick Duong
+# Rick Duong
 
-Technology Partnerships Leader | Developer Ecosystems | AI | Open Source
+## Technology Leader | Developer Ecosystems | Cycling Community
 
-I've worked at the intersection of software, developers, and business—helping build products, partner ecosystems, and communities across companies including Apple, Microsoft, Amazon, GitHub, Unity, IBM, and Arm.
+Technology executive focused on developer platforms, partnerships,
+and building communities around technology and the outdoors.
 
-Today I'm focused on AI, developer platforms, Windows on Arm, Linux, and building strong technology partnerships.
 
----
+| 🦾 **ARM** | 💻 **Career** | 🚴 **Cycling** |
+|:---|:---|:---|
+| **Current Chapter** | **Technology Journey** | **Passion & Community** |
+| Special Advisor | Apple → Microsoft → Amazon → GitHub → ARM | Endurance Cycling |
+| Strategic Partnerships | Partnerships & Strategy | Long Distance Rides |
+| Partner Ecosystems | Leadership Lessons | Bike Projects |
+| Technology Strategy | Industry Experiences | Cycling Advocacy |
+| | | |
+| → [Explore ARM](./arm) | → [Explore Career](./career) | → [Explore Cycling](./rickbike) |
 
-## 🚀 Featured Repositories
-
-### 💼 Career
-
-A living portfolio of my professional journey, current work, career timeline, presentations, and selected case studies.
-
-➡️ **Repository:** `career`
-
----
-
-### 🚴 Rick's Bike
-
-Cycling has been a lifelong passion. This repository documents rides, bike builds, equipment, photography, advocacy, and adventures throughout the Pacific Northwest.
-
-➡️ **Repository:** `ricksbike`
-
----
 
 ---
 
 ## Connect
 
-* GitHub: https://github.com/rickduong
-* LinkedIn: *(add your LinkedIn URL here)*
-
-Thanks for stopping by!
+[LinkedIn] • [GitHub] • [Strava] • [Instagram]

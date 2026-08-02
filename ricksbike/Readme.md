@@ -86,16 +86,15 @@ Fastest 50 miles:
 
 ---
 
-
 # 🚴 Memorable Rides
+
+## Seattle to Portland (STP) **[8]**
+
+2013, 2014, 2015, 2016, 2017, 2018, 2019, 2024
 
 ## RAMROD (Ride Around Mount Rainier in One Day) **[7]**
 
 2015, 2016, 2017, 2018, 2019, 2022, 2024
-
-## Seattle to Portland (STP) **[7]**
-
-2014, 2015, 2016, 2017, 2018, 2019, 2024
 
 ## Flying Wheels **[7]**
 
@@ -107,14 +106,15 @@ Fastest 50 miles:
 
 ## Gran Fondo Series **[4]**
 
-* Ephrata — 2021
-* Ellensburg — 2023
-* HI90 Grindy — 2025
-* Leavenworth — 2025
+Ephrata — 2021, Ellensburg — 2023, HI90 Grindy — 2025, Leavenworth — 2025
 
 ## Kitsap Color Classic **[3]**
 
 2016, 2018, 2023
+
+## Chilly Hilly **[2]**
+
+2016, 2018
 
 ## Tour de Blast **[2]**
 
@@ -164,9 +164,7 @@ Fastest 50 miles:
 
 2018
 
-## Chilly Hilly **[1]**
 
-2018
 
 ---
 

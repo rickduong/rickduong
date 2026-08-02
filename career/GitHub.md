@@ -1,7 +1,12 @@
 Head of Business Development and Partner Engineering
 GitHub, 2019 to 2025, Bellevue, Washington
 
-I built the [Technology Partnership Program]([url](https://partner.github.com/technology-partners)) team at [GitHub](http://github.com). GitHub is an ecosystem with over 100 million developers and our team worked with over 1,000 partners to integrate their technology to help enable all of those developers.
+Transformed GitHub's approach to technology partnerships and product development.  
+
+• Built and scaled a 10+ person Technology Partnerships team, doubling partner membership every 18 months by early 2025.
+• Launched Copilot Extensions ecosystem (Microsoft Build 2024), driving 40k+ installs across the top three partners in the GitHub marketplace that contributed to GitHub’s Leader placement in Gartner’s AI Code Assistants Magic Quadrant.
+• Delivered the world’s first AI pair programmer with GitHub Copilot technical preview, positioning GitHub at the forefront of AI-driven development with 15+ million developers and a 4x growth year-over-year.
+• As Director of Product Management, drove the roadmap for the #1 Developer Tools iOS app (4.8 rating), boosted Android rating from 4.2 to 4.7 across 20+ million downloads, and increased mobile engagement by 300 percent.
 
 ## 📰 Partner Integration News
 - [GitHub launches MCP Server](https://github.com/github/github-mcp-server) = Official local MCP server to connect LLMs and AI assistants to data and tools.

@@ -1,3 +1,6 @@
+![Uploading 2025-01-26_15-54-01_054.jpeg…]()
+![Uploading 2025-12-01_12-55-56_410.jpeg…]()
+
 =# 🚴 Rick's Cycling Journal
 
 Exploring roads, gravel, and the cycling community of the Pacific Northwest.

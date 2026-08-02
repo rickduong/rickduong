@@ -1,5 +1,7 @@
-Hello 👋, I am [@ricduong](https://www.linkedin.com/in/rickduong/), and I built the [Technology Partnership Program]([url](https://partner.github.com/technology-partners)) team at [GitHub](http://github.com). GitHub is an ecosystem with over 100 million developers and our team works with over 1,000 partners to integrate their technology to help enable all of those developers.
-I grew up in 🐂 Texas and live in the 🏔️ Pacific Northwest where I enjoy 🚴‍♂️ cycling and admire the 🎇 night sky as much as I can. 
+Head of Business Development and Partner Engineering
+GitHub, 2019 to 2025, Bellevue, Washington
+
+I built the [Technology Partnership Program]([url](https://partner.github.com/technology-partners)) team at [GitHub](http://github.com). GitHub is an ecosystem with over 100 million developers and our team worked with over 1,000 partners to integrate their technology to help enable all of those developers.
 
 ## 📰 Partner Integration News
 - [GitHub launches MCP Server](https://github.com/github/github-mcp-server) = Official local MCP server to connect LLMs and AI assistants to data and tools.

@@ -9,7 +9,7 @@ and building communities around technology and the outdoors.
 | 🦾 **ARM** | 💻 **Career** | 🚴 **Cycling** |
 |:---|:---|:---|
 | **Current Chapter** | **Technology Journey** | **Passion & Community** |
-| Special Advisor | GitHub| Endurance Cycling |
+| Special Advisor | [GitHub](GitHub.md)| Endurance Cycling |
 | Strategic Partnerships | Amazon | Long Distance Rides |
 | Partner Ecosystems | Microsoft | Bike Projects |
 | Technology Strategy | Apple | Cycling Advocacy |

@@ -12,7 +12,7 @@ Technology executive focused on developer platforms, strategic partnerships, and
 <td width="25%" valign="top">
 
 <h2>
-🦾 ARM<br>&nbsp;
+🚀 Arm<br>&nbsp;
 </h2>
 
 ### Current Chapter
@@ -40,12 +40,12 @@ I've worked at **Apple, IBM, Microsoft, Amazon, Unity, GitHub,** and now **Arm**
 <td width="25%" valign="top">
 
 <h2>
-🚴 Redmond<br>Cycling Club
+⭐ Redmond<br>Cycling Club
 </h2>
 
 ### President
 
-As **President of the Redmond Cycling Club**, I lead one of the Pacific Northwest's premier cycling events: **RAMROD**, I'm passionate about bringing cyclists together and growing our community.
+As **President of the Redmond Cycling Club**, I lead othe Pacific Northwest's premier ultra-distance cycling events: **RAMROD**, I'm passionate about bringing cyclists together and growing our community.
 
 ➡️ **[Explore RCC](./rcc)**
 
@@ -59,7 +59,7 @@ As **President of the Redmond Cycling Club**, I lead one of the Pacific Northwes
 
 ### I Climb Things
 
-Cycling is where I recharge and explore. Here you'll find ride reports, photography, videos, bike projects, gear reviews, and adventures across Washington and beyond.
+Cycling is where I recharge and explore. Here you'll find ride reports, photography, videos, bike projects, and adventures across Washington and beyond.
 
 ➡️ **[Explore Cycling](./rickbike)**
 

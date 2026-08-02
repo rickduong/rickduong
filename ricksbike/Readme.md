@@ -88,79 +88,79 @@ Fastest 50 miles:
 
 # 🚴 Memorable Rides
 
-## Seattle to Portland (STP) **[8]**
+#### Seattle to Portland (STP) **[8]**
 
 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2024
 
-## RAMROD (Ride Around Mount Rainier in One Day) **[7]**
+#### RAMROD (Ride Around Mount Rainier in One Day) **[7]**
 
 2015, 2016, 2017, 2018, 2019, 2022, 2024
 
-## Flying Wheels **[7]**
+#### Flying Wheels **[7]**
 
 2017, 2018, 2022, 2023, 2024, 2025, 2026
 
-## 7 Hills of Kirkland **[6]**
+#### 7 Hills of Kirkland **[6]**
 
 2016, 2017, 2018, 2019, 2023, 2024
 
-## Gran Fondo Series **[4]**
+#### Gran Fondo Series **[4]**
 
 Ephrata — 2021, Ellensburg — 2023, HI90 Grindy — 2025, Leavenworth — 2025
 
-## Kitsap Color Classic **[3]**
+#### Kitsap Color Classic **[3]**
 
 2016, 2018, 2023
 
-## Chilly Hilly **[2]**
+#### Chilly Hilly **[2]**
 
 2016, 2018
 
-## Tour de Blast **[2]**
+#### Tour de Blast **[2]**
 
 2021, 2023
 
-## Mount Baker Hill Climb **[2]**
+#### Mount Baker Hill Climb **[2]**
 
 2019, 2023
 
-## Tour de Whatcom **[2]**
+#### Tour de Whatcom **[2]**
 
 2023, 2026
 
-## Emerald City Ride **[2]**
+#### Emerald City Ride **[2]**
 
 2017, 2018
 
-## Redmond ↔ Bellingham **[1]**
+#### Redmond ↔ Bellingham **[1]**
 
 2022
 
-## Passport 2 Pain **[1]**
+#### Passport 2 Pain **[1]**
 
 2024
 
-## McClitchy Camano Classic **[1]**
+#### McClitchy Camano Classic **[1]**
 
 2026
 
-## MS 100K Deception Pass **[1]**
+#### MS 100K Deception Pass **[1]**
 
 2021
 
-## Cascadia Super Gravel **[1]**
+#### Cascadia Super Gravel **[1]**
 
 2021
 
-## Ride the Hurricane **[1]**
+#### Ride the Hurricane **[1]**
 
 2020
 
-## Yakima River Canyon Ride **[1]**
+#### Yakima River Canyon Ride **[1]**
 
 2019
 
-## High Pass Challenge **[1]**
+#### High Pass Challenge **[1]**
 
 2018
 

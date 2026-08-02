@@ -62,15 +62,22 @@ Visit:
 ## 🚲 My Bikes
 
 ### Trek Madone 9 SLR
-Frameset:  700 Series OCLV Carbon KVF
-Groupset: SRAM Red eTap 11 speed rim
-Wheelset: Elite Wheels Drive 40 V
-Handlebar: Bontrager Aeolus RSL VR-C Handlebar/Stem
-Saddle: Shimano Griffon Pro
+- Frameset:  700 Series OCLV Carbon KVF
+- Drivetrane: SRAM 1x 40t; 10-40 cassette
+- Groupset: SRAM Red eTap 11 speed rim
+- Wheelset: Elite Wheels Drive 40V
+- Handlebar: Bontrager Aeolus RSL VR-C
+- Saddle: Shimano Griffon Pro
 
 
-### Specialized Tarmac
-Lightweight performance platform.
+### Trek Domane SLR
+- Frameset:  700 Series OCLV Carbon KVF
+- Drivetrane: Shimanoe DuraAce 1x 38t; 10-44 cassette
+- Groupset: SRAM Red eTap 11 speed HRD
+- Wheelset: Cadex Wheels
+- Handlebar: FSA Compact 
+- Saddle: Shimano Griffon Pro
+
 
 ---
 

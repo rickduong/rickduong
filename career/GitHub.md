@@ -3,18 +3,19 @@
 > Transformed GitHub's approach to technology partnerships and product development.
 
 ### 🤝 Technology Partnerships
-- Built and scaled a 10+ person Technology Partnerships team
+- Built and scaled a 10+ person Technology Partnerships team.
 - Doubled partner membership every 18 months by early 2025.
 
 ### 🤖 GitHub Copilot & AI Innovation
-- Launched Copilot Extensions ecosystem(Microsoft Build 2024)
-- Drove 40k+ installs across the top three partners in the GitHub marketplace that contributed to GitHub’s Leader placement in Gartner’s AI Code Assistants Magic Quadrant.
-- Delivered the world’s first AI pair programmer with GitHub Copilot technical preview, positioning GitHub at the forefront of AI-driven development with 15+ million developers and a 4x growth year-over-year.
+- Launched Copilot Extensions ecosystem (Microsoft Build 2024).
+- Drove 40k+ installs across the top three partners in the GitHub marketplace.
+- GitHub’s identified as Leader in Gartner’s AI Code Assistants Magic Quadrant.
+- Delivered the world’s first AI pair programmer with GitHub Copilot technical preview.
 
 ### 📱 Developer Experience & Product Leadership
-- As Director of Product Management, drove the roadmap for the #1 Developer Tools iOS app (4.8 rating)
+- Drove the roadmap for the #1 Developer Tools iOS app (4.8 rating).
 - Boosted Android rating from 4.2 to 4.7 across 20+ million downloads.
-- Increased mobile engagement by 300%
+- Increased mobile engagement by 300%.
 
 ## 📰 Partner Integration News
 - [GitHub launches MCP Server](https://github.com/github/github-mcp-server) = Official local MCP server to connect LLMs and AI assistants to data and tools.

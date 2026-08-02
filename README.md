@@ -19,7 +19,7 @@ Technology executive focused on developer platforms, strategic partnerships, and
 
 I'm currently a **Special Advisor at Arm**, where I focus on strategic partnerships, developer ecosystems, and helping partners build on Arm technologies. 
 
-➡️ **[Explore ARM](./arm)**
+➡️ **[Explore Arm](https://github.com/rickduong/rickduong/blob/main/career/Arm.md)**
 
 </td>
 
@@ -33,7 +33,7 @@ I'm currently a **Special Advisor at Arm**, where I focus on strategic partnersh
 
 I've worked at **Apple, IBM, Microsoft, Amazon, Unity, GitHub,** and now **Arm**. My career has focused on  partnerships, and building ecosystems that help technology reach millions.
 
-➡️ **[Explore Career](./career)**
+➡️ **[Explore GitHub](https://github.com/rickduong/rickduong/blob/main/career/GitHub.md)**
 
 </td>
 
@@ -47,7 +47,7 @@ I've worked at **Apple, IBM, Microsoft, Amazon, Unity, GitHub,** and now **Arm**
 
 As **President of the Redmond Cycling Club**, I lead the Pacific Northwest's premier ultra-distance cycling events: **RAMROD**, a 150 miles, 10k feet adventure around Mount Rainier. 
 
-➡️ **[Explore RCC](./rcc)**
+➡️ **[Explore RCC](https://redmondcycling.club)**
 
 </td>
 
@@ -61,7 +61,7 @@ As **President of the Redmond Cycling Club**, I lead the Pacific Northwest's pre
 
 Cycling is where I recharge and explore. Here you'll find ride reports, photography, videos, bike projects, and adventures across Washington and beyond.
 
-➡️ **[Explore Cycling](./rickbike)**
+➡️ **[Explore Cycling](https://www.instagram.com/ricksbike)**
 
 </td>
 

@@ -1,7 +1,4 @@
-### Head of Business Development and Partner Engineering
-#### GitHub, 2019 to 2025, Bellevue, Washington
-
-## 🚀 GitHub | Scaling AI, Developer Platforms & Technology Partnerships
+## 🚀 GitHub | Head of Business Development and Partner Engineering | 2019 - 2025
 
 > Transformed GitHub's approach to technology partnerships and product development.
 

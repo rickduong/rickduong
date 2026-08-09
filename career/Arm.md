@@ -25,30 +25,23 @@
 ##  🪟 Windows on Arm Ecoystem
 
 ###  [Arm Launches AppReady for Windows](https://newsroom.arm.com/blog/arm-appready-for-windows-native-applications)
-Arm launches AppReady for Windows to provide developers and ISVs with resources, tooling guidance, and engineering support to build, port, and optimize native Windows on Arm applications.
-#### June 2, 2026
+Arm launches AppReady for Windows to provide developers and ISVs with resources, tooling guidance, and engineering support to build, port, and optimize native Windows on Arm applications. (June 2, 2026)
 
 ### 🇯🇵 [App Assure Demonstrates Global Windows on Arm Momentum](https://blogs.windows.com/windowsdeveloper/2026/02/10/accelerating-arm-momentum-in-japan-with-app-assure/)
-Microsoft highlights App Assure engagements with Japanese software developers as evidence of growing global Windows on Arm application support.
-#### February 10, 2026
+Microsoft highlights App Assure engagements with Japanese software developers as evidence of growing global Windows on Arm application support. (February 10, 2026)
 
 ### 📈 [Microsoft Highlights the Expanding Arm App Ecosystem](https://blogs.windows.com/windowsdeveloper/2025/09/18/empowering-the-future-the-expanding-arm-app-ecosystem-for-copilot-pcs/)
-Microsoft highlights the expanding Windows on Arm application ecosystem across productivity, creative, security, and enterprise applications and the role of App Assure in supporting developers.
-#### September 18, 2025
+Microsoft highlights the expanding Windows on Arm application ecosystem across productivity, creative, security, and enterprise applications and the role of App Assure in supporting developers. (September 18, 2025)
 
 ## 🔐 [App Assure Helps Nord Security Build for Windows on Arm](https://blogs.windows.com/windowsdeveloper/2025/05/14/microsoft-app-assure-helps-nord-security-build-for-windows-on-arm/)
-Microsoft highlights how App Assure engineers worked with Nord Security to help bring an Arm-native version of NordVPN to Windows on Arm.
-#### May 14, 2025
+Microsoft highlights how App Assure engineers worked with Nord Security to help bring an Arm-native version of NordVPN to Windows on Arm. (May 14, 2025)
 
-## 🌐 May 16, 2024
-[App Assure Helps Opera Build for Windows on Arm](https://blogs.windows.com/windowsdeveloper/2024/05/16/microsoft-app-assure-helps-opera-build-arm-optimized-browser/)
-Microsoft enables Opera with App Assure and helped more than 300 market-leading developers build Arm-optimized Windows applications.
+## 🌐 [App Assure Helps Opera Build for Windows on Arm](https://blogs.windows.com/windowsdeveloper/2024/05/16/microsoft-app-assure-helps-opera-build-arm-optimized-browser/)
+Microsoft enables Opera with App Assure and helped more than 300 market-leading developers build Arm-optimized Windows applications. (May 16, 2024)
 
-## 🌎 March 13, 2024
-[Microsoft Expands Arm Advisory Service Worldwide](https://blogs.windows.com/windowsdeveloper/2024/03/13/announcing-worldwide-availability-of-arm-advisory-service-for-developers/)
-Microsoft expands its Arm Advisory Service globally to provide developers with engineering assistance for creating, porting, debugging, and optimizing Windows on Arm applications.
+## 🌎 [Microsoft Expands Arm Advisory Service Worldwide](https://blogs.windows.com/windowsdeveloper/2024/03/13/announcing-worldwide-availability-of-arm-advisory-service-for-developers/)
+Microsoft expands its Arm Advisory Service globally to provide developers with engineering assistance for creating, porting, debugging, and optimizing Windows on Arm applications. (March 13, 20240
 
-## 🛠️ October 16, 2023
-[Microsoft Launches Arm Advisory Service](https://blogs.windows.com/windowsdeveloper/2023/10/16/windows-launching-arm-advisory-service-for-developers/)
-Microsoft launches the App Assure Arm Advisory Service as a no-cost engineering program to help developers build and optimize applications for Windows on Arm.
+## 🛠️[Microsoft Launches Arm Advisory Service](https://blogs.windows.com/windowsdeveloper/2023/10/16/windows-launching-arm-advisory-service-for-developers/)
+Microsoft launches the App Assure Arm Advisory Service as a no-cost engineering program to help developers build and optimize applications for Windows on Arm. ( October 16, 20230
 

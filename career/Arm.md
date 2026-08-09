@@ -3,26 +3,22 @@
 > Helping accelerate Arm's ecosystem growth through strategic partnerships, developer engagement, and technology innovation.
 
 
-## 🚀 Nvidia launches support for Windows on Arm
-
+### 🚀 Nvidia launches support for Windows on Arm
 - Nvidia launches support of Windows PC by establishing a new Arm-based PC platform with [RTX Spark](https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark)
 - Nvidia brings an AI supercomputer to the enterprise desktop for Windows with [DGX Station](https://nvidianews.nvidia.com/news/nvidia-dgx-station-for-windows-puts-a-trillion-parameter-ai-supercomputer-on-every-enterprise-desk)
 
-## 💻 Microsoft announces support for Nvidia RTX Spark
-
+### 💻 Microsoft announces support for Nvidia RTX Spark
 - Microsoft expands Windows on Arm into higher-performance AI and creator workloads with [Surface Laptop Ultra](https://blogs.windows.com/devices/2026/05/31/introducing-surface-laptop-ultra-made-for-world-makers/)
 - Microsoft introduces a compact developer PC engineered for developers with the [Surface RTX Spark Dev Box](https://blogs.windows.com/devices/2026/06/02/building-the-next-generation-of-devices-for-developers-surface-rtx-spark-dev-box/)
 
 
-## 🛠️ OEM partners support new Windows on Arm solutions
-
+### 🛠️ OEM partners support new Windows on Arm solutions
 - [ASUS: ProArt P16, ProArt P14 and ProArt Mini PC](https://press.asus.com/news/press-releases/asus-proart-p16-p14-mini-pc-nvidia-rtx-spark-computex-2026)
 | [Dell: XPS 16 Creator Edition](https://www.dell.com/en-us/blog/dell-and-nvidia-bring-serious-performance-to-creators/)
 | [HP: OmniBook Ultra 16, OmniBook X 14 and planned compact desktop](https://www.hp.com/us-en/newsroom/press-releases/2026/computex.html)
 | [MSI: Prestige N16 Flip AI+](https://in.msi.com/news/detail/MSI-Partners-with-NVIDIA-to-Unveil-Its-First-Laptop-Powered-by-NVIDIA-RTX-Spark-at-COMPUTEX-2026-148992)
 
-
-## Windows on Arm Ecoystem
+### Windows on Arm Application Ecosystem
 
 #### 🪟 [Arm Launches AppReady for Windows](https://newsroom.arm.com/blog/arm-appready-for-windows-native-applications)
 Arm launches AppReady for Windows to provide developers and ISVs with resources, tooling guidance, and engineering support to build, port, and optimize native Windows on Arm applications. (June 2, 2026)

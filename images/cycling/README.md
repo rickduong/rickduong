@@ -1,15 +1,14 @@
 # Cycling Images
 
-This directory can hold images related to cycling posts, ride reports, routes, and galleries.
+This directory can hold images related to cycling posts, ride reports, and galleries.
 
 Suggested organization:
 
 ```text
 images/cycling/
 ├── 2026-09-18-ramrod/
-├── route-notes/
-├── gear/
-└── photo-sets/
+├── photo-sets/
+└── ride-reports/
 ```
 
-Use this folder as a lightweight image library for stories, route pages, and gallery references.
+Use this folder as a lightweight image library for stories and gallery references.

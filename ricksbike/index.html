@@ -40,10 +40,10 @@
         display: block;
         overflow: hidden;
         position: relative;
-        background: #dfe4df;
+        background: #f4f2ee;
         text-decoration: none;
-        border-radius: 2px;
         box-shadow: 0 8px 18px rgba(29, 36, 31, 0.12);
+        aspect-ratio: 4 / 3;
       }
 
       .photo img {
@@ -52,6 +52,7 @@
         display: block;
         object-fit: contain;
         object-position: center;
+        background: #f4f2ee;
         transition: transform 0.35s ease, filter 0.35s ease;
       }
 
@@ -70,7 +71,6 @@
         grid-column: 2;
         grid-row: 2 / span 3;
         min-height: 300px;
-        background: #f4f2ee;
       }
 
       .status {
@@ -101,8 +101,7 @@
 
     <script>
       const collage = document.getElementById("collage");
-      const photosDirectory =
-        "https://api.github.com/repos/rickduong/rickduong/contents/ricksbike/photos";
+      const photosDirectory = "https://api.github.com/repos/rickduong/rickduong/contents/ricksbike/photos";
       const imagePattern = /\.(avif|gif|jpe?g|png|webp)$/i;
 
       const positions = [
@@ -119,9 +118,7 @@
       function createPhotoLink(file, featured = false) {
         const link = document.createElement("a");
         link.className = featured ? "photo photo--featured" : "photo";
-        link.href = `photo.html?photo=${encodeURIComponent(
-          file.name.replace(/\.[^.]+$/, "")
-        )}`;
+        link.href = `photo.html?photo=${encodeURIComponent(file.name.replace(/\.[^.]+$/, ""))}`;
         link.setAttribute("aria-label", `View ${file.name}`);
 
         const image = document.createElement("img");
@@ -155,8 +152,7 @@
             return;
           }
 
-          const featured = createPhotoLink(photoFiles[0], true);
-          collage.appendChild(featured);
+          collage.appendChild(createPhotoLink(photoFiles[0], true));
 
           photoFiles.slice(1).forEach((file, index) => {
             const item = createPhotoLink(file, false);

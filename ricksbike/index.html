@@ -32,21 +32,19 @@
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: var(--gap);
+        align-items: start;
       }
 
       .photo {
         display: block;
-        position: relative;
         overflow: hidden;
         background: #dfe4df;
         text-decoration: none;
-        aspect-ratio: 4 / 3;
       }
 
       .photo img {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
+        height: auto;
         display: block;
         transition: transform 0.45s ease, filter 0.45s ease;
       }
@@ -62,22 +60,73 @@
         outline-offset: 3px;
       }
 
+      .status {
+        grid-column: 1 / -1;
+        color: var(--muted);
+      }
+
       @media (max-width: 700px) {
         .collage {
           grid-template-columns: 1fr;
+        }
+
+        .status {
+          grid-column: auto;
         }
       }
     </style>
   </head>
   <body>
-    <main class="collage" aria-label="Cycling photo collage">
-      <a class="photo" href="photo.html?photo=2021-06-04_14-00-13_232" aria-label="View cycling photo">
-        <img src="photos/2021-06-04_14-00-13_232.jpg" alt="Cycling photo from the Pacific Northwest" loading="eager">
-      </a>
-
-      <a class="photo" href="photo.html?photo=2019-07-25_09-48-25_000" aria-label="View cycling photo">
-        <img src="photos/2019-07-25_09-48-25_000.jpeg" alt="Cycling photo from 2019" loading="lazy">
-      </a>
+    <main id="collage" class="collage" aria-label="Cycling photo collage">
+      <p class="status" role="status">Loading photos…</p>
     </main>
+
+    <script>
+      const collage = document.querySelector('#collage');
+      const photosDirectory = 'https://api.github.com/repos/rickduong/rickduong/contents/ricksbike/photos';
+      const imagePattern = /\.(avif|gif|jpe?g|png|webp)$/i;
+
+      function addPhoto(file) {
+        const link = document.createElement('a');
+        link.className = 'photo';
+        link.href = `photo.html?photo=${encodeURIComponent(file.name.replace(/\.[^.]+$/, ''))}`;
+        link.setAttribute('aria-label', `View ${file.name}`);
+
+        const image = document.createElement('img');
+        image.src = file.download_url;
+        image.alt = file.name.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' ');
+        image.loading = 'lazy';
+        image.decoding = 'async';
+
+        link.append(image);
+        collage.append(link);
+      }
+
+      async function loadPhotos() {
+        try {
+          const response = await fetch(photosDirectory, {
+            headers: { Accept: 'application/vnd.github+json' }
+          });
+          if (!response.ok) throw new Error(`Photo directory request failed: ${response.status}`);
+
+          const files = await response.json();
+          const photoFiles = files
+            .filter(file => file.type === 'file' && imagePattern.test(file.name))
+            .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
+
+          collage.replaceChildren();
+          photoFiles.forEach(addPhoto);
+
+          if (photoFiles.length === 0) {
+            collage.innerHTML = '<p class="status">No photos found.</p>';
+          }
+        } catch (error) {
+          collage.innerHTML = '<p class="status">Photos could not be loaded.</p>';
+          console.error(error);
+        }
+      }
+
+      loadPhotos();
+    </script>
   </body>
 </html>

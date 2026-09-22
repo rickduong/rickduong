@@ -3,103 +3,101 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Rick's cycling photography from the Pacific Northwest.">
+    <meta name="description" content="Rick's cycling photo collage.">
     <title>Rick's Cycling Journal</title>
     <style>
       :root {
-        color-scheme: light;
-        --background: #f5f4ef;
+        --bg: #f3f1eb;
+        --text: #1d241f;
+        --muted: #5c665f;
         --gap: 12px;
       }
 
       * { box-sizing: border-box; }
-
       html, body {
-        min-height: 100%;
         margin: 0;
+        min-height: 100%;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Inter, "Segoe UI", sans-serif;
       }
 
       body {
-        background: var(--background);
         padding: var(--gap);
       }
 
       .collage {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-auto-rows: minmax(140px, 18vw);
-        gap: var(--gap);
-        max-width: 1440px;
+        max-width: 1500px;
         margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-auto-rows: minmax(180px, 20vw);
+        gap: var(--gap);
       }
 
       .photo {
         display: block;
-        min-height: 0;
+        position: relative;
         overflow: hidden;
-        background: #d8ddd7;
+        background: #dfe4df;
+        text-decoration: none;
       }
 
-      .photo--large {
-        grid-column: span 2;
-        grid-row: span 2;
-      }
-
-      .photo--tall {
-        grid-row: span 2;
-      }
-
-      .photo--wide {
-        grid-column: span 2;
-      }
+      .photo--large { grid-column: span 2; grid-row: span 2; }
+      .photo--tall { grid-row: span 2; }
+      .photo--wide { grid-column: span 2; }
 
       .photo img {
-        display: block;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        transition: transform 500ms ease;
+        display: block;
+        transition: transform 0.45s ease, filter 0.45s ease;
       }
 
       .photo:hover img,
       .photo:focus-visible img {
         transform: scale(1.04);
+        filter: saturate(1.05);
       }
 
       .photo:focus-visible {
-        outline: 3px solid #17221e;
+        outline: 3px solid #1d241f;
         outline-offset: 3px;
       }
 
-      @media (max-width: 640px) {
-        :root { --gap: 8px; }
-
+      @media (max-width: 700px) {
         .collage {
-          grid-template-columns: repeat(2, 1fr);
-          grid-auto-rows: minmax(130px, 31vw);
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          grid-auto-rows: minmax(150px, 30vw);
         }
       }
     </style>
   </head>
   <body>
-    <main class="collage" aria-label="Rick's cycling photo collage">
-      <a class="photo photo--large" href="photo.html?photo=north-cascades" aria-label="View North Cascades Traverse photo">
-        <img src="photos/north-cascades.jpg" alt="Road through the North Cascades" loading="eager">
+    <main class="collage" aria-label="Cycling photo collage">
+      <a class="photo photo--large" href="photo.html?photo=2021-06-04_14-00-13_232" aria-label="View cycling photo">
+        <img src="photos/2021-06-04_14-00-13_232.jpg" alt="Cycling photo from the Pacific Northwest" loading="eager">
       </a>
-      <a class="photo photo--tall" href="photo.html?photo=ramrod" aria-label="View RAMROD photo">
-        <img src="photos/ramrod.jpg" alt="Cyclists riding near Mount Rainier" loading="lazy">
+
+      <a class="photo photo--tall" href="photo.html?photo=2019-07-25_09-48-25_000" aria-label="View cycling photo">
+        <img src="photos/2019-07-25_09-48-25_000.jpeg" alt="Cycling photo from 2019" loading="lazy">
       </a>
-      <a class="photo photo--wide" href="photo.html?photo=stp" aria-label="View Seattle to Portland photo">
-        <img src="photos/stp.jpg" alt="Cyclists on the Seattle to Portland ride" loading="lazy">
+
+      <a class="photo photo--wide" href="photo.html?photo=2021-06-04_14-00-13_232" aria-label="View cycling photo">
+        <img src="photos/2021-06-04_14-00-13_232.jpg" alt="Cycling photo close-up" loading="lazy">
       </a>
-      <a class="photo" href="photo.html?photo=flying-wheels" aria-label="View Flying Wheels photo">
-        <img src="photos/flying-wheels.jpg" alt="Cycling on a Pacific Northwest road" loading="lazy">
+
+      <a class="photo" href="photo.html?photo=2019-07-25_09-48-25_000" aria-label="View cycling photo">
+        <img src="photos/2019-07-25_09-48-25_000.jpeg" alt="Cycling photo from a road ride" loading="lazy">
       </a>
-      <a class="photo photo--wide" href="photo.html?photo=redmond-club" aria-label="View Redmond Cycling Club photo">
-        <img src="photos/redmond-club.jpg" alt="Redmond Cycling Club riders" loading="lazy">
+
+      <a class="photo photo--wide" href="photo.html?photo=2021-06-04_14-00-13_232" aria-label="View cycling photo">
+        <img src="photos/2021-06-04_14-00-13_232.jpg" alt="Cycling photo landscape" loading="lazy">
       </a>
-      <a class="photo" href="photo.html?photo=mount-baker" aria-label="View Mount Baker Hill Climb photo">
-        <img src="photos/mount-baker.jpg" alt="Mount Baker viewed from a cycling route" loading="lazy">
+
+      <a class="photo" href="photo.html?photo=2019-07-25_09-48-25_000" aria-label="View cycling photo">
+        <img src="photos/2019-07-25_09-48-25_000.jpeg" alt="Cycling photo detail" loading="lazy">
       </a>
     </main>
   </body>

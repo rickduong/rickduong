@@ -32,7 +32,7 @@
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(3, minmax(80px, 1fr));
-        grid-template-rows: repeat(5, minmax(80px, 1fr));
+        grid-template-rows: 90px 130px 130px 90px;
         gap: var(--gap);
       }
 
@@ -43,7 +43,6 @@
         background: #f4f2ee;
         text-decoration: none;
         box-shadow: 0 8px 18px rgba(29, 36, 31, 0.12);
-        aspect-ratio: 4 / 3;
       }
 
       .photo img {
@@ -69,8 +68,8 @@
 
       .photo--featured {
         grid-column: 2;
-        grid-row: 2 / span 3;
-        min-height: 300px;
+        grid-row: 2 / span 2;
+        min-height: 0;
       }
 
       .status {
@@ -106,13 +105,11 @@
 
       const positions = [
         { column: 2, row: 1 },
-        { column: 2, row: 5 },
+        { column: 2, row: 4 },
         { column: 1, row: 2 },
         { column: 3, row: 2 },
         { column: 1, row: 3 },
-        { column: 3, row: 3 },
-        { column: 1, row: 4 },
-        { column: 3, row: 4 }
+        { column: 3, row: 3 }
       ];
 
       function createPhotoLink(file, featured = false) {
@@ -152,7 +149,8 @@
             return;
           }
 
-          collage.appendChild(createPhotoLink(photoFiles[0], true));
+          const featured = createPhotoLink(photoFiles[0], true);
+          collage.appendChild(featured);
 
           photoFiles.slice(1).forEach((file, index) => {
             const item = createPhotoLink(file, false);

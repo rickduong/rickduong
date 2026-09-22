@@ -1,1 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick Duong</title>
+    <meta
+      name="description"
+      content="Rick Duong — Technology Leader, cycling community advocate, and President of the Redmond Cycling Club."
+    />
+    <style>
+      :root {
+        --bg: #0a0d12;
+        --panel: #121923;
+        --panel-strong: #1a2432;
+        --text: #edf2f7;
+        --muted: #b8c3d3;
+        --line: rgba(255, 255, 255, 0.08);
+        --accent: #8ad6ff;
+        --accent-strong: #6ec4ff;
+        --shadow: rgba(0, 0, 0, 0.3);
+      }
 
+      * { box-sizing: border-box; }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background: linear-gradient(180deg, #0a0d12 0%, #0f1722 100%);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .page {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 32px 24px 56px;
+      }
+
+      .hero-image {
+        width: 100%;
+        display: block;
+        border-radius: 18px;
+        border: 1px solid var(--line);
+        box-shadow: 0 20px 50px var(--shadow);
+      }
+
+      h1 {
+        font-size: clamp(2.5rem, 5vw, 4rem);
+        line-height: 1.05;
+        margin: 20px 0 8px;
+        letter-spacing: -0.06em;
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: clamp(1.2rem, 2vw, 1.8rem);
+        color: var(--muted);
+        font-weight: 600;
+      }
+
+      .lead {
+        margin: 0 0 32px;
+        max-width: 820px;
+        font-size: 1.05rem;
+        color: var(--muted);
+      }
+
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(220px, 1fr));
+        gap: 18px;
+        margin-top: 30px;
+      }
+
+      .card {
+        background: rgba(18, 25, 35, 0.9);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 20px 18px 18px;
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+      }
+
+      .card h3 {
+        margin: 0 0 12px;
+        font-size: clamp(1.5rem, 2vw, 2rem);
+        line-height: 1.15;
+      }
+
+      .card .label {
+        display: block;
+        font-size: 0.8rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent-strong);
+        margin-bottom: 8px;
+        font-weight: 700;
+      }
+
+      .card p {
+        margin: 0 0 14px;
+        color: var(--muted);
+      }
+
+      .card strong {
+        color: var(--text);
+      }
+
+      .card a {
+        font-weight: 600;
+      }
+
+      .divider {
+        margin: 40px 0 20px;
+        border: 0;
+        border-top: 1px solid var(--line);
+      }
+
+      footer {
+        color: var(--muted);
+        text-align: center;
+        margin-top: 18px;
+        font-size: 0.95rem;
+      }
+
+      @media (max-width: 960px) {
+        .card-grid {
+          grid-template-columns: repeat(2, minmax(220px, 1fr));
+        }
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+
+        .card-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <img
+        class="hero-image"
+        width="1024"
+        height="576"
+        alt="Rick Duong"
+        src="https://github.com/user-attachments/assets/1e8beca4-a03f-4c67-89a4-d30d36ab00c3"
+      />
+
+      <h1>Rick Duong</h1>
+      <h2>Technology Leader | Cycling Community</h2>
+
+      <p class="lead">
+        Technology executive focused on developer platforms, strategic partnerships, and
+        growing technical communities. Outside of work, I am the President of the Redmond
+        Cycling Club and advocate for building stronger, more connected communities through
+        technology and shared experiences.
+      </p>
+
+      <div class="card-grid">
+        <article class="card">
+          <h3>🚀 Arm</h3>
+          <span class="label">Current Chapter</span>
+          <p>
+            I'm currently a <strong>Special Advisor at Arm</strong>, where I focus on strategic
+            partnerships, developer ecosystems, and helping partners build on Arm technologies.
+          </p>
+          <a href="https://github.com/rickduong/rickduong/blob/main/career/Arm.md">Explore Arm</a>
+        </article>
+
+        <article class="card">
+          <h3>💼 Career</h3>
+          <span class="label">Technology Journey</span>
+          <p>
+            I've worked at <strong>Apple, IBM, Microsoft, Amazon, Unity, GitHub</strong>, and now
+            <strong>Arm</strong>. My career has focused on partnerships and building ecosystems
+            that help technology reach millions.
+          </p>
+          <a href="https://github.com/rickduong/rickduong/blob/main/career/GitHub.md">Explore GitHub</a>
+        </article>
+
+        <article class="card">
+          <h3>⭐ Redmond<br />Cycling Club</h3>
+          <span class="label">President</span>
+          <p>
+            As <strong>President of the Redmond Cycling Club</strong>, I lead the Pacific Northwest's
+            premier ultra-distance cycling events: <strong>RAMROD</strong>, a 150 miles, 10k feet
+            adventure around Mount Rainier.
+          </p>
+          <a href="https://redmondcycling.club">Explore RCC</a>
+        </article>
+
+        <article class="card">
+          <h3>🚴‍♂️ Cycling</h3>
+          <span class="label">I Climb Things</span>
+          <p>
+            Cycling is where I recharge and explore. Here you'll find ride reports, photography,
+            videos, bike projects, and adventures across Washington and beyond.
+          </p>
+          <a href="https://www.instagram.com/ricksbike">Explore Cycling</a>
+        </article>
+      </div>
+
+      <hr class="divider" />
+
+      <footer>Technology Leader · Cycling Community</footer>
+    </div>
+  </body>
+</html>

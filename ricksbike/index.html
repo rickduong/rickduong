@@ -10,7 +10,7 @@
         --bg: #f3f1eb;
         --text: #1d241f;
         --muted: #5c665f;
-        --gap: 10px;
+        --gap: 12px;
       }
 
       * { box-sizing: border-box; }
@@ -27,21 +27,23 @@
       }
 
       .collage {
-        width: min(100%, 920px);
+        width: min(100%, 980px);
+        height: min(78vw, 700px);
+        min-height: 460px;
         margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr 1.35fr 1fr;
-        grid-auto-rows: minmax(140px, 180px);
-        gap: var(--gap);
-        align-items: stretch;
+        position: relative;
       }
 
       .photo {
         display: block;
+        position: absolute;
+        width: clamp(130px, 19vw, 210px);
+        aspect-ratio: 4 / 3;
         overflow: hidden;
         background: #dfe4df;
         text-decoration: none;
-        position: relative;
+        box-shadow: 0 8px 20px rgb(29 36 31 / 14%);
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
       }
 
       .photo img {
@@ -52,9 +54,15 @@
         transition: transform 0.45s ease, filter 0.45s ease;
       }
 
+      .photo:hover,
+      .photo:focus-visible {
+        transform: scale(1.04);
+        box-shadow: 0 12px 28px rgb(29 36 31 / 24%);
+        z-index: 2;
+      }
+
       .photo:hover img,
       .photo:focus-visible img {
-        transform: scale(1.04);
         filter: saturate(1.05);
       }
 
@@ -64,34 +72,44 @@
       }
 
       .photo--featured {
-        grid-column: 2;
-        grid-row: 1 / span 2;
+        width: clamp(250px, 39vw, 430px);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
       }
 
-      .photo--small {
-        grid-column: auto;
-      }
+      .photo--small:nth-of-type(2) { left: 50%; top: 0; transform: translateX(-50%); }
+      .photo--small:nth-of-type(3) { right: 0; top: 50%; transform: translateY(-50%); }
+      .photo--small:nth-of-type(4) { right: 8%; bottom: 0; }
+      .photo--small:nth-of-type(5) { left: 50%; bottom: 0; transform: translateX(-50%); }
+      .photo--small:nth-of-type(6) { left: 8%; bottom: 0; }
+      .photo--small:nth-of-type(7) { left: 0; top: 50%; transform: translateY(-50%); }
 
       .status {
-        grid-column: 1 / -1;
+        margin: 0;
         text-align: center;
         color: var(--muted);
       }
 
       @media (max-width: 700px) {
+        body { padding: 12px; }
+
         .collage {
-          grid-template-columns: 1fr 1fr;
-          grid-auto-rows: minmax(120px, 150px);
+          height: auto;
+          min-height: 0;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: var(--gap);
         }
 
+        .photo,
         .photo--featured {
-          grid-column: 1 / span 2;
-          grid-row: auto;
-          min-height: 260px;
-        }
-
-        .photo--small {
-          grid-column: auto;
+          position: relative;
+          inset: auto;
+          width: min(100%, 360px);
+          transform: none;
         }
       }
     </style>
@@ -112,33 +130,14 @@
         link.href = `photo.html?photo=${encodeURIComponent(file.name.replace(/\.[^.]+$/, ''))}`;
         link.setAttribute('aria-label', `View ${file.name}`);
 
-        const img = document.createElement('img');
-        img.src = file.download_url;
-        img.alt = file.name.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' ');
-        img.loading = 'lazy';
-        img.decoding = 'async';
+        const image = document.createElement('img');
+        image.src = file.download_url;
+        image.alt = file.name.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' ');
+        image.loading = featured ? 'eager' : 'lazy';
+        image.decoding = 'async';
 
-        link.appendChild(img);
+        link.appendChild(image);
         return link;
-      }
-
-      function positionSmallPhotos(photos) {
-        const positions = [
-          { column: 1, row: 1 },
-          { column: 3, row: 1 },
-          { column: 1, row: 2 },
-          { column: 3, row: 2 },
-          { column: 1, row: 3 },
-          { column: 3, row: 3 }
-        ];
-
-        photos.forEach((photo, index) => {
-          const element = createPhotoLink(photo, false);
-          const pos = positions[index] || { column: 1, row: 3 };
-          element.style.gridColumn = pos.column;
-          element.style.gridRow = pos.row;
-          collage.appendChild(element);
-        });
       }
 
       async function loadPhotos() {
@@ -148,24 +147,20 @@
           });
           if (!response.ok) throw new Error(`Photo directory request failed: ${response.status}`);
 
-          const files = await response.json();
-          const photoFiles = files
+          // The API lists only direct children; folders are excluded here.
+          const photoFiles = (await response.json())
             .filter(file => file.type === 'file' && imagePattern.test(file.name))
             .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
 
           collage.replaceChildren();
 
-          if (photoFiles.length === 0) {
+          if (!photoFiles.length) {
             collage.innerHTML = '<p class="status">No photos found.</p>';
             return;
           }
 
-          const featured = createPhotoLink(photoFiles[0], true);
-          collage.appendChild(featured);
-
-          if (photoFiles.length > 1) {
-            positionSmallPhotos(photoFiles.slice(1, 7));
-          }
+          collage.appendChild(createPhotoLink(photoFiles[0], true));
+          photoFiles.slice(1, 7).forEach(file => collage.appendChild(createPhotoLink(file)));
         } catch (error) {
           collage.innerHTML = '<p class="status">Photos could not be loaded.</p>';
           console.error(error);

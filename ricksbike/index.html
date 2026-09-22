@@ -27,16 +27,18 @@
       }
 
       .collage {
-        max-width: 980px;
+        width: min(100%, 760px);
         margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
         gap: var(--gap);
-        align-items: start;
       }
 
       .photo {
         display: block;
+        flex: 0 1 320px;
         overflow: hidden;
         background: #dfe4df;
         text-decoration: none;
@@ -61,17 +63,15 @@
       }
 
       .status {
-        grid-column: 1 / -1;
+        width: 100%;
         color: var(--muted);
+        text-align: center;
       }
 
       @media (max-width: 700px) {
-        .collage {
-          grid-template-columns: 1fr;
-        }
-
-        .status {
-          grid-column: auto;
+        .photo {
+          flex-basis: 100%;
+          max-width: 420px;
         }
       }
     </style>

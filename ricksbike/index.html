@@ -22,9 +22,7 @@
         font-family: Inter, "Segoe UI", sans-serif;
       }
 
-      body {
-        padding: 16px;
-      }
+      body { padding: 16px; }
 
       .collage {
         width: min(100%, 760px);
@@ -39,9 +37,9 @@
       .photo {
         display: block;
         overflow: hidden;
+        position: relative;
         background: #dfe4df;
         text-decoration: none;
-        position: relative;
         box-shadow: 0 8px 18px rgb(29 36 31 / 12%);
       }
 
@@ -75,15 +73,13 @@
         background: #f4f2ee;
       }
 
-      .photo--small img {
-        object-fit: cover;
-      }
+      .photo--small img { object-fit: cover; }
 
       .status {
         grid-column: 1 / -1;
-        text-align: center;
-        color: var(--muted);
         margin: 0;
+        color: var(--muted);
+        text-align: center;
       }
 
       @media (max-width: 700px) {
@@ -109,19 +105,18 @@
       const collage = document.getElementById('collage');
       const photosDirectory = 'https://api.github.com/repos/rickduong/rickduong/contents/ricksbike/photos';
       const imagePattern = /\.(avif|gif|jpe?g|png|webp)$/i;
+
+      // The first two supporting photos go directly above and below the hero.
+      // Additional photos fill the side positions, keeping the composition tight.
       const positions = [
-        { column: 1, row: 1 },
         { column: 2, row: 1 },
-        { column: 3, row: 1 },
+        { column: 2, row: 5 },
         { column: 1, row: 2 },
         { column: 3, row: 2 },
         { column: 1, row: 3 },
         { column: 3, row: 3 },
         { column: 1, row: 4 },
-        { column: 3, row: 4 },
-        { column: 1, row: 5 },
-        { column: 2, row: 5 },
-        { column: 3, row: 5 }
+        { column: 3, row: 4 }
       ];
 
       function createPhotoLink(file, featured = false) {
@@ -162,9 +157,11 @@
 
           photoFiles.slice(1).forEach((file, index) => {
             const item = createPhotoLink(file);
-            const position = positions[index % positions.length];
-            item.style.gridColumn = position.column;
-            item.style.gridRow = position.row;
+            const position = positions[index];
+            if (position) {
+              item.style.gridColumn = position.column;
+              item.style.gridRow = position.row;
+            }
             collage.appendChild(item);
           });
         } catch (error) {

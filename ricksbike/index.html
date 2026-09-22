@@ -109,6 +109,8 @@
           });
           if (!response.ok) throw new Error(`Photo directory request failed: ${response.status}`);
 
+          // GitHub returns only the direct children of this directory.
+          // Keep files only so folders, including nested photo folders, are ignored.
           const files = await response.json();
           const photoFiles = files
             .filter(file => file.type === 'file' && imagePattern.test(file.name))

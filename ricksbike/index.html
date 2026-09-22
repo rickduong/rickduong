@@ -10,7 +10,7 @@
         --bg: #f3f1eb;
         --text: #1d241f;
         --muted: #5c665f;
-        --gap: 8px;
+        --gap: 10px;
       }
 
       * { box-sizing: border-box; }
@@ -23,37 +23,38 @@
       }
 
       body {
-        padding: var(--gap);
+        padding: 20px;
       }
 
       .collage {
-        width: min(100%, 760px);
+        width: min(100%, 920px);
         margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
+        display: grid;
+        grid-template-columns: 1fr 1.35fr 1fr;
+        grid-auto-rows: minmax(140px, 180px);
         gap: var(--gap);
+        align-items: stretch;
       }
 
       .photo {
         display: block;
-        flex: 0 1 320px;
         overflow: hidden;
         background: #dfe4df;
         text-decoration: none;
+        position: relative;
       }
 
       .photo img {
         width: 100%;
-        height: auto;
+        height: 100%;
+        object-fit: cover;
         display: block;
         transition: transform 0.45s ease, filter 0.45s ease;
       }
 
       .photo:hover img,
       .photo:focus-visible img {
-        transform: scale(1.03);
+        transform: scale(1.04);
         filter: saturate(1.05);
       }
 
@@ -62,16 +63,35 @@
         outline-offset: 3px;
       }
 
+      .photo--featured {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+      }
+
+      .photo--small {
+        grid-column: auto;
+      }
+
       .status {
-        width: 100%;
-        color: var(--muted);
+        grid-column: 1 / -1;
         text-align: center;
+        color: var(--muted);
       }
 
       @media (max-width: 700px) {
-        .photo {
-          flex-basis: 100%;
-          max-width: 420px;
+        .collage {
+          grid-template-columns: 1fr 1fr;
+          grid-auto-rows: minmax(120px, 150px);
+        }
+
+        .photo--featured {
+          grid-column: 1 / span 2;
+          grid-row: auto;
+          min-height: 260px;
+        }
+
+        .photo--small {
+          grid-column: auto;
         }
       }
     </style>
@@ -82,24 +102,43 @@
     </main>
 
     <script>
-      const collage = document.querySelector('#collage');
+      const collage = document.getElementById('collage');
       const photosDirectory = 'https://api.github.com/repos/rickduong/rickduong/contents/ricksbike/photos';
       const imagePattern = /\.(avif|gif|jpe?g|png|webp)$/i;
 
-      function addPhoto(file) {
+      function createPhotoLink(file, featured = false) {
         const link = document.createElement('a');
-        link.className = 'photo';
+        link.className = featured ? 'photo photo--featured' : 'photo photo--small';
         link.href = `photo.html?photo=${encodeURIComponent(file.name.replace(/\.[^.]+$/, ''))}`;
         link.setAttribute('aria-label', `View ${file.name}`);
 
-        const image = document.createElement('img');
-        image.src = file.download_url;
-        image.alt = file.name.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' ');
-        image.loading = 'lazy';
-        image.decoding = 'async';
+        const img = document.createElement('img');
+        img.src = file.download_url;
+        img.alt = file.name.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' ');
+        img.loading = 'lazy';
+        img.decoding = 'async';
 
-        link.append(image);
-        collage.append(link);
+        link.appendChild(img);
+        return link;
+      }
+
+      function positionSmallPhotos(photos) {
+        const positions = [
+          { column: 1, row: 1 },
+          { column: 3, row: 1 },
+          { column: 1, row: 2 },
+          { column: 3, row: 2 },
+          { column: 1, row: 3 },
+          { column: 3, row: 3 }
+        ];
+
+        photos.forEach((photo, index) => {
+          const element = createPhotoLink(photo, false);
+          const pos = positions[index] || { column: 1, row: 3 };
+          element.style.gridColumn = pos.column;
+          element.style.gridRow = pos.row;
+          collage.appendChild(element);
+        });
       }
 
       async function loadPhotos() {
@@ -109,18 +148,23 @@
           });
           if (!response.ok) throw new Error(`Photo directory request failed: ${response.status}`);
 
-          // GitHub returns only the direct children of this directory.
-          // Keep files only so folders, including nested photo folders, are ignored.
           const files = await response.json();
           const photoFiles = files
             .filter(file => file.type === 'file' && imagePattern.test(file.name))
             .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
 
           collage.replaceChildren();
-          photoFiles.forEach(addPhoto);
 
           if (photoFiles.length === 0) {
             collage.innerHTML = '<p class="status">No photos found.</p>';
+            return;
+          }
+
+          const featured = createPhotoLink(photoFiles[0], true);
+          collage.appendChild(featured);
+
+          if (photoFiles.length > 1) {
+            positionSmallPhotos(photoFiles.slice(1, 7));
           }
         } catch (error) {
           collage.innerHTML = '<p class="status">Photos could not be loaded.</p>';
